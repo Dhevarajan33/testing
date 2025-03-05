@@ -1,0 +1,19 @@
+if the you had not opened the project for long period of time , you need connect the backend first , for that run the following commands
+                    
+                          cd backend
+                          node server.js
+                           
+if mongo DB connected successfully , the run 
+
+                          npm start
+
+if there is any issue for running frontend and backend together , then run
+ 
+                          npm install concurrently (refer chat GPT for correct code)
+
+to run frontend alone , run 
+                        
+                         cd frontend
+                         npm start
+
+
